@@ -5,7 +5,7 @@ import { writeFile } from 'fs/promises';
 import path from 'path';
 import { mkdir } from 'fs/promises';
 
-// Disable body parsing
+
 export const config = {
   api: {
     bodyParser: false,
